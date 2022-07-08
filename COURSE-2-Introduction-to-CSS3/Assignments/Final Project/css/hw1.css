@@ -1,0 +1,107 @@
+@charset "UTF-8";
+:root{
+    --at-body-font-family:"Times New Roman",courier,Arial;
+    --at-White:#FFFFFF;
+    --at-Black:#000000;
+	--at-backround-color:#848E66;
+}
+
+body {
+	padding: 10px;
+	margin: 1%;
+}
+
+header {
+	background-color: var(--at-backround-color);
+	background-image: url("../images/flywheel.jpg");
+	background-size:100%;
+	padding:20px;
+}
+
+h1 {
+	text-align: center;
+	color: var(--at-White);
+	font-size: x-large;
+	text-transform: uppercase;
+}
+
+nav a{
+	display: inline-block;
+	margin: 2%;
+
+	-webkit-border-radius: 3;
+	-moz-border-radius: 3;
+	-o-border-radius: 3;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 2%;
+	color: var(--at-Black);
+	text-align: center;
+	vertical-align: middle;
+	background-color: var(--at-backround-color);
+	width:150px;
+	height: 20px;
+}
+
+.active {
+	background-color: var(--at-White);
+}
+
+.left {
+	background-color: var(--at-backround-color);
+	width: 24%;
+	float:left;
+	padding: 5% 0;
+}
+
+.right {
+	width:74%;
+	display: inline-block;
+	padding-left: 2%;
+}
+
+.left img {
+	border: solid 1px var(--at-Black);
+	width: 80%;
+	margin: 10%;
+}
+
+table {
+	width: 100%;
+	margin: 3%;
+	padding: 3%;
+	color:#06425C;
+	border-spacing: 1;
+}
+
+th, td {
+    text-align: center;
+    padding: 1%;
+    height: 30px;
+    font-size: 75%;
+}
+th {
+	color: var(--at-White);
+	background: #55552b;
+	border: 3px solid #55552b;
+	border-bottom:5px solid #4e4e15;
+	border-radius: 10px 10px 0px 0px;
+}
+td{
+	vertical-align:top;
+    border: 3px solid #e1eedd;
+    color: #B3B3B3;
+    opacity: 7;
+    background-color: #e1eedd;
+}
+
+tr>th:first-child {
+    text-align: left;
+}
+tr>td:first-child {
+    text-align: left;
+}
+td:hover{
+    background-color: #EEEEEE;
+    border: none;
+}
